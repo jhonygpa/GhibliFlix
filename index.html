@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="src/img/favicon.ico" />
+
+    <!--owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!--Responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+    
+    <title>GhibliFlix</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        
+        <div class="container">
+            <h2 class="logo">GhibliFlix</h2>
+            <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Series</a>
+            <a href="#">Filmes</a>
+            <a href="#">Documentarios</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filmeprincipal">
+            <div class="container">
+                <h3 class="titulo">Meu Amigo Totoro</h3>
+                <p class="descricao">Mei é uma jovem que encontra uma pequena passagem em seu quintal, que a leva à um lendário espírito da floresta conhecido como Totoro. Sua mãe está no hospital e seu pai divide o tempo entre dar aulas na faculdade e cuidar de sua mulher doente. Quando Mei tenta visitar a mãe por conta própria, se perde na floresta e só o grande e fofo Totoro pode ajudar a menina a achar o caminho de volta para casa.</p>
+                <div class="botoes">
+                    <button role="button" class="botao"> 
+                        <a href="#openModal">
+                            <i class="fa-solid fa-play"></i>
+                                ASSISTIR AGORA TRAILER
+                            </a>
+                    <button role="button" class="botao">
+                        <a href="#openInfo">
+                        <i class="fa-solid fa-circle-info"></i> 
+                        MAIS INFORMAÇÕES
+                    </a>
+                    </button>
+                </div>
+            </div>
+                
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="src/img/img2.jpg" alt="Poster Castelo Animado">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="src/img/img1.jpg" alt="Poster Castelo Animado">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="src/img/img3.jpg" alt="Poster Castelo Animado">
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="rodape">
+
+    </footer>
+
+   
+
+    <div id="openModal" class="modalDialog">
+        <div>
+            <a href="#fechar" title="fechar" class="fechar"> X </a>
+            <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/WJC1qciW_3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </p>
+        </div>
+    </div>
+
+    <div id="openInfo" class="modalDialog">
+        <div>
+            <a href="#fechar" title="Close" class="fechar"> X </a>
+            <h3>Sinopse</h3>
+            <p> <br>
+
+                Mei é uma jovem que encontra uma pequena passagem em seu quintal, que a leva à um 
+                lendário espírito da floresta conhecido como Totoro. Sua mãe está no hospital e seu pai 
+                divide o tempo entre dar aulas na faculdade e cuidar de sua mulher doente. Quando Mei tenta visitar a mãe por 
+                conta própria, se perde na floresta e só o grande e fofo Totoro pode ajudar a menina a achar o caminho de volta para casa.
+                Hayao Miyazaki
+                Director, Writer</p>
+        </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+      
+    <script src="https://kit.fontawesome.com/8a5c0b8174.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
